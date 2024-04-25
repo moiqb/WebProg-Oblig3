@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bestilling av kinobilletter</title>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>Bestilling av kinobilletter</h1>
+<div class="container">
+    <label for="film">Velg film:</label>
+    <select class="form-control" id="film" style="width: 200px">
+        <option value="" disabled selected hidden>Velg film her</option>
+        <option value="Kung Fu Panda 4">Kung Fu Panda 4</option>
+        <option value="Anjuman">Anjuman</option>
+        <option value="Superman">Superman</option>
+    </select>
+    <br><br><br>
+    <label for="antall">Antall</label>
+    <input class="form-control" id="antall" type="number" style="width: 55px">
+    <span id="tom-antall"></span>
+    <br><br><br>
+    <label for="fornavn">Fornavn</label>
+    <input class="form-control" id="fornavn" type="text" style="width: 200px">
+    <span id="tom-fornavn"></span>
+    <br><br>
+    <label for="etternavn">Etternavn</label>
+    <input class="form-control" id="etternavn" type="text" style="width: 200px">
+    <span id="tom-etternavn"></span>
+    <br><br>
+    <label for="telefonnr">Telefonnr</label>
+    <input class="form-control" id="telefonnr" type="text" style="width: 200px">
+    <span id="tom-telefonnr"></span>
+    <br><br>
+    <label for="epost">Epost</label>
+    <input class="form-control" id="epost" type="text" style="width: 200px">
+    <span id="tom-epost"></span>
+    <br><br>
+    <button class="btn btn-primary" onclick="KjopBillett()">Kjøp billett</button>
+    <br><br>
+    <h2>Alle billetter</h2>
+    <br><div id="output"></div>
+    <button class="btn btn-danger" onclick="SlettAlle()">Slett alle biletter</button>
+</div>
+</body>
+</html>
