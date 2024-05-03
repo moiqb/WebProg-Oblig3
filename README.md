@@ -6,6 +6,8 @@ GitHub brukernavn: moiqb
 
 GitHub repo URL: https://github.com/moiqb/WebProg-Oblig3.git
 
+Youtube video link: https://www.youtube.com/watch?v=Jn_ILgm3vC8
+
 Fullt navn: Mohammad Matin Iqbal 
 
 Kort beskrivelse av applikasjon (5–10 setninger): 
